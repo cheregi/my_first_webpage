@@ -1,0 +1,257 @@
+/******************************************************** Header **********************************************************/
+
+/*********************
+******** Logo *****
+*********************/
+.indie {
+    font-family: 'Indie Flower', cursive;
+    color: #0849BD;
+    padding: 10px;
+    font-size:28px;
+    border-radius: 50%;
+    border: 2px solid #cccccc;
+    background-color: white;
+    display:inline-block;
+    font-size: 30px;    
+    /* clear: both; */
+    /* display: inline-block; */
+}
+
+.logo {/* only header div*/
+    
+    display: inline-block;
+    position: relative;
+    transform: translateY(50%);
+    /* bottom: 0; */
+    /* margin: 0; */
+
+}
+
+
+/*********************
+******** NAV BAR  *****
+*********************/
+
+
+nav {
+    background-color: #EFBC60;
+    margin-top: 40px;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    /* padding: 24px; */
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; */
+    
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+li {
+    display: inline;
+}
+a {
+    transition: 0.3 ease;
+    padding: 20px 0;
+    margin: 0 20px;
+    display: inline-block;
+    color: white;
+    background-color: #EFBC60;
+    text-decoration: none;
+    border-top: 4px solid #EFBC60;
+    border-bottom: 4px solid #EFBC60;
+    font-size: 20px;
+    /* font-weight: bold; */
+    /* border: 1px solid rgb(240, 163, 22) ; */
+    
+}
+a:hover {
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    padding: 6px 0;
+}
+a:hover .blue {
+    color: rgb(16, 141, 204);
+    /* color: #25A1E1; */
+}
+a:hover .orange {
+    color: #F1561B;
+    /* color: #F16125; */
+}
+a:hover .darkblue {
+    color: #0A1A56;
+}
+a:hover .pink {
+    color: rgb(241, 44, 80);
+}
+
+
+.home, .html, .css, .webpages {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+/* a:visited {
+    color:pink;
+} */
+
+
+/* input:focus, a:focus{
+    border: 5px solid green;
+    text-transform: uppercase;
+} */
+/********************************************************** body ************************************************************/
+
+body {
+    background-color: #eeeeee;
+    margin: 0px;
+}
+h2 {
+    font-family: 'Indie Flower', cursive;
+    color: #0849BD;
+    /* font-size: 3rem; */
+}
+video {
+    float: left;
+    width: 400px;
+    margin: auto;
+}
+audio {
+    display: block;
+    clear: both;
+}
+/* p:hover span {
+    border: 5px solid blue;
+    text-transform: uppercase;
+} */
+
+img {
+    width: 400px;
+    height: 250px;
+    border: 5px solid rgb(16, 141, 204);
+    /* float: right; */
+    /* display: block; */
+    /* display: block; */
+    /* clear: both; */
+}
+.container1 {
+    
+    display: flex;
+    
+}
+.container2 {
+    display: flex;
+}
+.first {
+    display: flex;
+}
+.forth {
+    /* display: left; */
+}
+
+.second{
+    display:flex;
+}
+
+.third {
+display:flex;
+/* flex: block; */
+}
+.circle{
+    border: 3px solid #0A1A56 ;
+    background-color:#DFAF1E;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 11px rgba(0, 0, 0, 0.5);
+    
+    
+    /* text-align: center; */
+    /* display: inline-block; */
+    /* clear: both; */
+}
+.hard {
+    text-align: center;
+    /*********** atentie *************/
+    padding: 60px;
+    /******** sfrasit de atentie *******/
+}
+
+input[type="text"] {
+   
+    text-align: center;
+    display: block;
+    margin : 0 auto;
+}
+
+.forth {
+    display: flex;
+   justify-content: space-between;
+
+}
+.blueColor {
+    color: rgb(16, 141, 204);
+}
+.darkBlueColor {
+    color: #0A1A56;
+}
+p {
+    font-family: 'Raleway', sans-serif;
+    margin: 20px;
+    font-weight: bolder;
+}
+.myText1, .myText2 {
+    display: inline;
+    /* margin: 200px; */
+}
+.myText1 {
+    float: left;
+    width: 350px;   
+}
+
+.myText2 {
+    color: #F1561B;
+    float: left;
+}
+.myText3 {
+    color: #DFAF1E;
+    clear: both;
+}
+.myText4 {
+    clear: both;
+    color: #F1561B;
+}
+.myText5 {
+    clear: both;
+}
+.myText6 {
+    clear: both;
+    color: rgb(16, 141, 204);
+}
+
+
+blockquote::before {
+    content: "«";
+    color: red;
+    
+}
+blockquote::after {
+    content: "»";
+    color: red;
+}
+blockquote {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
